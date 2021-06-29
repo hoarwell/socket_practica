@@ -2,10 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import socketIOClient from 'socket.io-client';
 
 const NEW_MESSAGE_EVENT = "new-message-event";
-const SOCKET_SERVER_URL = "http://localhost:3030";
+const SOCKET_SERVER_URL = "http://youn9jo.github.io/socket_practica:3030";
 
 const ChatRoom = () => {
     const [messages, setMessages] = useState([]);
+    const [count, setCount] = useState("");
     const socketRef = useRef();
 
     useEffect(() => {
@@ -16,6 +17,10 @@ const ChatRoom = () => {
                 isOwner: message.senderId === socketRef.current.id,    
             };
             setMessages((messages) => [...messages, incomingMessage]);
+        });
+
+        socketRef.current.on('usercount', (count) => {
+            setCount(count);
         });
 
         return (() => {
@@ -30,7 +35,7 @@ const ChatRoom = () => {
         })
     }
 
-    return { messages, sendMessage }
+    return { count, messages, sendMessage }
 }
 
 export default ChatRoom;;

@@ -3,7 +3,7 @@ import './App.css';
 import ChatRoom from './ChatRoom';
 
 function App() {
-  const { messages, sendMessage } = ChatRoom();
+  const { count, messages, sendMessage } = ChatRoom();
   const [newMessage, setNewMessage] = useState("");
   const messageRef = useRef();
 
@@ -30,6 +30,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
+        <p>{ count } in this chat room.</p>
         <div className="message-container">
           <ul>
             { messages.map((message, i) => (
