@@ -30,7 +30,11 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <p>{ count } in this chat room.</p>
+        {
+          count? (
+            <p> { count } in here now.</p>
+          ) : ""
+        }
         <div className="message-container">
           <ul>
             { messages.map((message, i) => (

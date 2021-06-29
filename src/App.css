@@ -16,6 +16,7 @@ ul {
 
 li {
   list-style: none;
+  transition: all 1s linear;
 }
 
 .send-button {
