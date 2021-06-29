@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/socket_practica/static/css/main.fcf670cd.chunk.css",
-    "main.js": "/socket_practica/static/js/main.754ed14d.chunk.js",
-    "main.js.map": "/socket_practica/static/js/main.754ed14d.chunk.js.map",
+    "main.js": "/socket_practica/static/js/main.5668c80c.chunk.js",
+    "main.js.map": "/socket_practica/static/js/main.5668c80c.chunk.js.map",
     "runtime-main.js": "/socket_practica/static/js/runtime-main.d27eab2b.js",
     "runtime-main.js.map": "/socket_practica/static/js/runtime-main.d27eab2b.js.map",
     "static/js/2.6e23481d.chunk.js": "/socket_practica/static/js/2.6e23481d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.d27eab2b.js",
     "static/js/2.6e23481d.chunk.js",
     "static/css/main.fcf670cd.chunk.css",
-    "static/js/main.754ed14d.chunk.js"
+    "static/js/main.5668c80c.chunk.js"
   ]
 }
