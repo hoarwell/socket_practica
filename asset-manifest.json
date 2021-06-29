@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/socket_practica/static/css/main.3acbe3ee.chunk.css",
-    "main.js": "/socket_practica/static/js/main.29c5641f.chunk.js",
-    "main.js.map": "/socket_practica/static/js/main.29c5641f.chunk.js.map",
+    "main.js": "/socket_practica/static/js/main.8b831579.chunk.js",
+    "main.js.map": "/socket_practica/static/js/main.8b831579.chunk.js.map",
     "runtime-main.js": "/socket_practica/static/js/runtime-main.d27eab2b.js",
     "runtime-main.js.map": "/socket_practica/static/js/runtime-main.d27eab2b.js.map",
-    "static/js/2.0eb06218.chunk.js": "/socket_practica/static/js/2.0eb06218.chunk.js",
-    "static/js/2.0eb06218.chunk.js.map": "/socket_practica/static/js/2.0eb06218.chunk.js.map",
+    "static/js/2.6e23481d.chunk.js": "/socket_practica/static/js/2.6e23481d.chunk.js",
+    "static/js/2.6e23481d.chunk.js.map": "/socket_practica/static/js/2.6e23481d.chunk.js.map",
     "index.html": "/socket_practica/index.html",
     "static/css/main.3acbe3ee.chunk.css.map": "/socket_practica/static/css/main.3acbe3ee.chunk.css.map",
-    "static/js/2.0eb06218.chunk.js.LICENSE.txt": "/socket_practica/static/js/2.0eb06218.chunk.js.LICENSE.txt"
+    "static/js/2.6e23481d.chunk.js.LICENSE.txt": "/socket_practica/static/js/2.6e23481d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d27eab2b.js",
-    "static/js/2.0eb06218.chunk.js",
+    "static/js/2.6e23481d.chunk.js",
     "static/css/main.3acbe3ee.chunk.css",
-    "static/js/main.29c5641f.chunk.js"
+    "static/js/main.8b831579.chunk.js"
   ]
 }
