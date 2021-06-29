@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import socketIOClient from 'socket.io-client';
 
 const NEW_MESSAGE_EVENT = "new-message-event";
-const SOCKET_SERVER_URL = "http://172.30.1.17:3030";
+const SOCKET_SERVER_URL = "http://youngjo.com/socket_practica:3030";
 
 const ChatRoom = () => {
     const [messages, setMessages] = useState([]);
